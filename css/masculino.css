@@ -1,0 +1,84 @@
+.itens {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.btn-style {
+  border: 3px solid;
+  color: #ffffff;
+  padding: 10px 120px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  background: #2743c0;
+}
+
+.cartao {
+  border: 2px solid;
+  height: 380px;
+  width: 100%;
+  margin: 4px;
+  position: relative;
+  min-width: 250px;
+  max-width: 310px;
+}
+
+.subtitle h3 {
+  margin-left: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 14.98px;
+  color: #6e798c;
+  font-size: 11px;
+}
+
+.subtitle p {
+  position: relative;
+  top: -25px;
+  margin-left: 250px;
+}
+.about h1 {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-family: DM Serif Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.about p {
+  margin-top: -10px;
+  line-height: 19px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: justify;
+}
+.rodape p {
+  margin-left: 70px;
+  color: #007ae9;
+  margin-top: 22px;
+}
+.rodape a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: #007ae9;
+  margin-left: 90px;
+}
+
+.rodape {
+  position: relative;
+}
+.rodape img {
+  position: absolute;
+  top: -33px;
+  left: -75px;
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+}

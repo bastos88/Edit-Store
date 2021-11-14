@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Edit Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/grid.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsivo.css">
+    <link rel="shortcut icon" href="/favicon-16x16.png" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <script>
+        document.documentElement.classList.add("js");
+    </script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4"><img src="/img/logo.svg" alt="editstore"></a>
+            <nav class="header_menu grid-12">
+                <ul>
+                    <li>
+                        <a href="/login.html">Login</a></li>
+                    <li>
+                        <a href="/index.html">Produtos</a></li>
+                    <li>
+                        <a href="/sobre.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="final_interno">
+        <div class="container">
+            <h1 data-anime="500" class="fadeInDown">Contato</h1>
+            <div class="card">
+                <div class="card-body">
+                    <blockquote class="quote-externo">
+                        <p data-anime="1000" class="fadeInDown">tire suas dúvidas com a gente</p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sect_final">
+        <div class="container final fadeInDown" data-anime="1500">
+            <form id="campo" method="POST" action="./Enviar.php" class="campo grid-8 formphp ">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" required></textarea>
+                <button id="enviar" type="submit" name="enviar" class="btn-preto">Enviar</button>
+            </form>
+
+            <div class="dados_final grid-8">
+                <h1>Dados</h1>
+                <span>+351 9200 55981 </span>
+                <span class="final_email">contato@editstore.com </span>
+                <span>Rua Ali Perto - Sto Idelfonso </span>
+                <span>Porto - Portugal </span>
+                <div class="redes_final">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li>
+                            <a href=""><img src="/img/facebook.svg" alt="fb"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="/img/instagram.svg" alt="ig"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="/img/twitter.svg" alt="twi"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="grid-16 mapa fadeInDown" data-anime="1700">
+            <img src="/img/endereco.jpg" alt="equipe edit">
+        </div>
+    </section>
+    <div class="quebra">
+        <blockquote class="quote-externo container">
+            <p>“Conheça seu produto por dentro e por fora antes de começar a trabalhar. E relacione esse conhecimento com as necessidades do consumidor.”</p>
+            <cite>BILL BERNBACH</cite>
+        </blockquote>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="grid-8 footer_historia">
+                    <h3>Nossa História</h3>
+                    <p>A Edit Store surgiu através de uma aventura ao me mudar do Brasil para Portugal, com o intuito
+                    aprender mais sobre desenvolvimente web, a loja virtual acabou saindo do papel para a web.
+                    </p>
+                </div>
+                <div class="grid-4 footer_contato">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>- +351 920055981</li>
+                        <li>- contato@editstore.com </li>
+                        <li>- Rua Ali Perto - Porto </li>
+                    </ul>
+                </div>
+                <div class="grid-4 footer_redes">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li>
+                            <a href=""><img src="/img/facebook.svg" alt="fb"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="/img/instagram.svg" alt="ig"></a>
+                        </li>
+                        <li>
+                            <a href=""><img src="/img/twitter.svg" alt="twi"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <div class="container">
+                <p class="grid-16">Edit Store 2021 - todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+    <script src=" js/simple-anime.js "></script>
+    <script src="js/simple-form.js"></script>
+    <script src=" /js/script.js "></script>
+</body>
