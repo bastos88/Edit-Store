@@ -107,7 +107,7 @@
       .single-item {
         margin: 0 auto;
         height: 350px;
-        width: 100%;
+        width: 120%;
         box-sizing: border-box;
       }
 
@@ -119,9 +119,8 @@
       }
       .left-set img {
         position: relative;
-        width: 100%;
         top: 40px;
-        left: 50px;
+        left: 0px;
         box-sizing: border-box;
       }
       .right-set {
@@ -154,7 +153,12 @@
       .color {
           margin: 0;
       }
-
+      .size ul li {
+        height: 25px;
+        width: 30px;
+        margin-right: 5px;
+        margin-bottom: 4px;
+}
 
     /* contato */
     .final_interno {
