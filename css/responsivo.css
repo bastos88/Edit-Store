@@ -103,10 +103,11 @@
         width: 1rem;
         height: 1rem;
       }
+
       .single-item {
         margin: 0 auto;
-        height: 480px;
-        width: 460px;
+        height: 350px;
+        width: 350px;
         box-sizing: border-box;
       }
 
@@ -117,17 +118,45 @@
       .left-set img {
         position: relative;
         width: 70%;
-        top: 60px;
+        top: 40px;
         left: 50px;
       }
       .right-set {
         float: left;
+        margin-top: 0px;
         box-sizing: border-box;
       }
       .butao {
-          margin-top: 40px;
+          margin-top: 2px;
       }
-
+      .name {
+        font-size: 1.0rem;
+        line-height: 2rem;
+      }
+      .subname {
+        font-size: 0.8rem;
+        line-height: 1rem;
+      }
+      .price {
+        padding: 0rem ;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      .description p{
+        font-size: 0.2rem;
+        text-align: justify;
+        hyphens: auto;
+      }
+      .color {
+          margin: 1px;
+      }
+      .size {
+          margin: 1px 0;
+      }
+      .size ul li {
+          margin-left: 0;
+          margin-bottom: 4px;
+      }
 
     /* contato */
     .final_interno {
