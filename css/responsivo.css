@@ -144,6 +144,7 @@
     color: #8844ee;
   }
   .price {
+      padding: 10px 0;
     font-size: 1.2rem;
   }
   .description p {
