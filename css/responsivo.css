@@ -107,7 +107,7 @@
       .single-item {
         margin: 0 auto;
         height: 350px;
-        width: 50%;
+        width: 45%;
         box-sizing: border-box;
       }
 
@@ -126,12 +126,13 @@
       }
       .right-set {
         float: left;
-        margin-top: 10px;
+        margin-top: 0px;
         box-sizing: border-box;
       }
       .butao {
-          width: 70%;
-          margin-top: 2px;
+          width: 90%;
+          height: 40px;
+          margin-top: 0px;
       }
       .name {
         font-size: 1.0rem;
@@ -140,11 +141,10 @@
       .subname {
         font-size: 0.8rem;
         line-height: 1rem;
+        color: #8844ee;
       }
       .price {
-        padding: 0rem ;
-        font-size: 1rem;
-        font-weight: bold;
+        font-size: 1.2rem;
       }
       .description p{
         font-size: 0.2rem;
@@ -158,8 +158,8 @@
           margin: 1px 0;
       }
       .size ul li {
-          margin-left: 0;
-          margin-bottom: 4px;
+          margin-left: 0px;
+          margin-bottom: 10px;
       }
 
     /* contato */
