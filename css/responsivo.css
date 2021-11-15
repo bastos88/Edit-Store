@@ -115,12 +115,7 @@
     overflow: hidden;
     box-sizing: border-box;
   }
-  .left-set,
-  .right-set {
-    position: relative;
-    width: 50%;
-    height: 100%;
-  }
+
   .left-set img {
     position: relative;
     width: 100%;
