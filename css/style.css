@@ -15,33 +15,115 @@ img {
   max-width: 100%;
 }
 
-.btn {
-  border: 3px solid;
-  color: #ffffff;
-  padding: 10px 10px;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.1em;
-}
 
-.btn-new {
-  border: 3px solid;
+.middle {
+  position: relative;
+  top: -350px;
+}
+.btn-style {
+  border: 2px solid;
   color: #ffffff;
-  padding: 10px 235px;
+  margin: 0 auto;
+  padding: 10px 122px;
   font-weight: bold;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.1em;
   background: #8844ee;
 }
-
-.btn-new:hover {
-  color: #000000;
-  border-color: #000000;
+.btn-style-1 {
+  border: 2px solid;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 10px 115px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  background: #8844ee;
+}
+.btn-style-2 {
+  border: 2px solid;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 10px 107px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  background: #8844ee;
+}
+.bottao {
+  display: block;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid #8844ee;
+  color: #ffffff;
+  cursor: pointer;
+  align-self: center;
+  font-size: 1rem;
+  box-shadow: 0 0 40px 40px #8844ee inset;
+  opacity: 0.8;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  width: min-content;
+  padding: 1.2em 14.2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.bottao:hover,
+.bottao:focus {
+  color: #fff;
+  outline: 0;
 }
 
-.btn-preto {
+.first {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.first:hover {
+  box-shadow: 0 0 40px 40px #5000c7 inset;
+  opacity: 0.8;
+}
+.bottao2 {
+  display: block;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid #8844ee;
+  color: #ffffff;
+  cursor: pointer;
+  align-self: center;
+  font-size: 1rem;
+  box-shadow: 0 0 40px 40px #8844ee inset;
+  opacity: 0.8;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  width: min-content;
+  padding: 1.2em 14.8em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.bottao2:hover,
+.bottao2:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.btn-padrao {
   margin-top: 20px;
   border: 3px solid;
   color: #8844ee;
@@ -52,13 +134,9 @@ img {
   letter-spacing: 0.1em;
 }
 
-.btn-preto:hover {
-  color: #000000;
-  border-color: #000000;
-}
-
-.btn:hover {
-  color: #8844ee;
+.btn-padrao:hover {
+  background-color: #8844ee;
+  color: #ffffff;
   border-color: #8844ee;
 }
 
@@ -100,7 +178,6 @@ img {
 .header_menu {
   display: flex;
   justify-content: flex-end;
-  margin-left: 10px;
 }
 
 .header_menu ul li {
@@ -178,29 +255,13 @@ img {
 .produtos_icone {
   margin-left: 40px;
 }
-.produtos_lista li {
-  text-align: center;
-}
-
-.produtos_lista li h3 {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-top: 10px;
-}
-
-.produtos_lista li h3:after {
-  content: "";
-  display: block;
-  width: 90px;
-  height: 3px;
-  background: rgb(146, 144, 144);
-  margin: 2px auto;
+.produtos_icone img {
+  height: 37.5rem;
+  width: 34.813rem;
 }
 .produtos_icone .btn-new {
   position: relative;
+  left: 25px;
   top: -300px;
   opacity: 0.7;
 }
@@ -401,42 +462,6 @@ img {
   text-transform: uppercase;
 }
 
-.produto_passeio {
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.item_produto {
-  padding-top: 60px;
-}
-
-.item_produto h2 {
-  padding-bottom: 40px;
-}
-
-.item_produto h2 {
-  color: #fff;
-  font-size: 36px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-weight: bold;
-  position: relative;
-  top: -180px;
-  text-align: center;
-  margin-bottom: -56px;
-}
-
-.item_produto h2:before,
-.item_produto h2::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 3px;
-  background: white;
-  margin: 10px auto 10px auto;
-}
-
 .produtos_icone {
   padding: 70px 0;
 }
@@ -461,10 +486,11 @@ img {
   border: solid 6px #fff;
   border-radius: 10px;
   background: #f5f5f5;
-  box-shadow: 0 30px 20px -20px rgba(0,0,0,0.3);
+  box-shadow: 0 30px 20px -20px rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
 }
-.left-set, .right-set {
+.left-set,
+.right-set {
   position: relative;
   width: 50%;
   height: 100%;
@@ -484,7 +510,8 @@ img {
   padding: 2rem 1rem;
   box-sizing: border-box;
 }
-.name, .subname {
+.name,
+.subname {
   font-weight: bold;
 }
 .name {
@@ -500,7 +527,7 @@ img {
   font-size: 2rem;
   font-weight: bold;
 }
-.description p{
+.description p {
   font-size: 0.9rem;
   text-align: justify;
   hyphens: auto;
@@ -532,40 +559,39 @@ img {
   clear: left;
 }
 .color ul li {
-    height: 30px;
-    width: 30px;
-    border: solid 2px #aaa;
-    border-radius: 4px;
-    float: left;
-    margin-right: 0.4rem;
-    cursor: pointer;
-    transition: all 0.4s ease;
+  height: 30px;
+  width: 30px;
+  border: solid 2px #aaa;
+  border-radius: 4px;
+  float: left;
+  margin-right: 0.4rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
 }
 .color :nth-child(1) {
   background: #222;
 }
 .color :nth-child(1):hover {
-border-color: #222;
+  border-color: #222;
 }
 .color :nth-child(2) {
   background: crimson;
 }
 .color :nth-child(2):hover {
-border-color: crimson;
+  border-color: crimson;
 }
 .color :nth-child(3) {
   background: gray;
 }
 .color :nth-child(3):hover {
-border-color: gray;
+  border-color: gray;
 }
 .color :nth-child(4) {
   background: blue;
 }
 .color :nth-child(4):hover {
-border-color: blue;
+  border-color: blue;
 }
-
 
 .butao {
   width: 100%;
@@ -582,7 +608,6 @@ border-color: blue;
 .butao:hover {
   background: #8844ee;
 }
-
 
 /* Login */
 .sect_final {
@@ -601,7 +626,7 @@ border-color: blue;
 }
 .login {
   padding: 20px 20px 20px 20px;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   border: 2px solid #8844ee;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   display: block;
@@ -681,43 +706,11 @@ fieldset.grupo .campo {
   max-width: 310px;
 }
 
-.btn-style {
-  border: 2px solid;
-  color: #ffffff;
-  margin: 0 auto;
-  padding: 10px 122px;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.1em;
-  background: #8844ee;
-}
-.btn-style-1 {
-  border: 2px solid;
-  color: #ffffff;
-  margin: 0 auto;
-  padding: 10px 115px;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.1em;
-  background: #8844ee;
-}
-.btn-style-2 {
-  border: 2px solid;
-  color: #ffffff;
-  margin: 0 auto;
-  padding: 10px 107px;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.1em;
-  background: #8844ee;
-}
+
 /* meus produtos */
 .selecao {
   margin-top: 40px;
-  margin-left: 690px;
+  margin-left: 710px;
 }
 .cards {
   background-color: white;
@@ -822,69 +815,7 @@ fieldset.grupo .campo {
   margin-bottom: 40px;
 }
 
-/* formulário */
 
-.orcamento {
-  background: #000;
-  width: 100%;
-  margin-top: 20px;
-  padding-top: 40px;
-  padding: 40px 0;
-}
-
-.orcamento h2 {
-  color: #8844ee;
-}
-
-.orcamento h2::after {
-  background: #8844ee;
-}
-
-.orcamento_dados {
-  color: #fff;
-}
-
-.orcamento_dados h3 {
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #8844ee;
-  line-height: 25px;
-  font-weight: bold;
-  padding: 1px;
-}
-
-.orcamento_dados span {
-  display: block;
-  font-size: 18px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  padding: 1px;
-  padding-top: 10px;
-}
-
-.dados_email {
-  margin-bottom: 40px;
-}
-
-.orcamento_dados ul li {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 16px;
-  padding: 10px 15px;
-}
-
-.orcamento_dados ul li:nth-child(odd) {
-  background: #1d1d1d;
-}
-
-.orcamento_dados p {
-  font-size: 18px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 10px;
-}
-
-.orcamento_dados ul {
-  padding-right: 60px;
-}
 /* Redes sociais */
 
 .redes_final h3 {
@@ -918,10 +849,6 @@ fieldset.grupo .campo {
   padding-top: 40px;
   padding-bottom: 60px;
 }
-
-
-
-
 
 /* JAVASCRIPT*/
 

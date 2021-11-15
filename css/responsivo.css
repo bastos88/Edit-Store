@@ -86,16 +86,25 @@
     
   }
   .produtos_icone img {
-    height: 20.5rem;
-    width: 18.813rem;
+    height: 22.5rem;
+    width: 17.813rem;
   }
-  .produtos_icone .btn-new {
+  .produtos_icone .bottao {
     position: relative;
-    top: -170px;
+    margin: 0 auto;
+    top: 130px;
+    padding: 0.8em 1.2em;
     opacity: 0.7;
 }
+.produtos_icone .bottao2 {
+  position: relative;
+  margin: 0 auto;
+  top: 140px;
+  padding: 0.8em 1.8em;
+  opacity: 0.7;
+}
   .btn-new {
-    padding: 10px 110px;
+    padding: 5px 30px;
   }
   .texto_ {
     height: 300px;
@@ -227,6 +236,6 @@
     justify-content: center;
   }
   .selecao {
-    margin-left: 0px;
+    margin-left: 30px;
   }
 }
