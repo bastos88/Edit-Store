@@ -106,8 +106,8 @@
 
       .single-item {
         margin: 0 auto;
-        height: 250px;
-        width: 250px;
+        height: 350px;
+        width: 100%;
         box-sizing: border-box;
       }
 
@@ -123,7 +123,7 @@
       }
       .right-set {
         float: left;
-        margin-top: 0px;
+        margin-top: 10px;
         box-sizing: border-box;
       }
       .butao {
