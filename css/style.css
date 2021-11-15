@@ -15,7 +15,6 @@ img {
   max-width: 100%;
 }
 
-
 .middle {
   position: relative;
   top: -350px;
@@ -138,6 +137,31 @@ img {
   background-color: #8844ee;
   color: #ffffff;
   border-color: #8844ee;
+}
+
+.butao {
+  width: 100%;
+  height: 3rem;
+  margin-top: 130px;
+  cursor: pointer;
+  background: none;
+  border-radius: 4px;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  transition: all 0.4s ease;
+  border: 3px solid;
+  color: #8844ee;
+  font-size: 14px;
+  line-height: 20px;
+}
+.butao:hover,
+.butao:focus {
+  color: #fff;
+  outline: 0;
+}
+.butao:hover {
+  border: #8844ee;
+  background: #8844ee;
 }
 
 .subtitulo {
@@ -383,11 +407,6 @@ img {
   padding: 20px;
 }
 
-.missao_sobre {
-  padding-top: 60px;
-  padding-bottom: 160px;
-}
-
 .sobre_historia h3 {
   font-size: 24px;
   line-height: 25px;
@@ -444,23 +463,6 @@ img {
 }
 
 /* produtos */
-
-.produtos_interno {
-  width: 100%;
-  background-size: cover;
-  margin-top: 82px;
-  height: 160px;
-  text-align: center;
-  padding-top: 30px;
-}
-
-.produtos_interno h1 {
-  font-size: 36px;
-  line-height: 60px;
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-}
 
 .produtos_icone {
   padding: 70px 0;
@@ -593,22 +595,6 @@ img {
   border-color: blue;
 }
 
-.butao {
-  width: 100%;
-  height: 3rem;
-  margin-top: 130px;
-  cursor: pointer;
-  background: none;
-  border: solid 2px #111;
-  border-radius: 4px;
-  font-weight: bold;
-  letter-spacing: 0.2rem;
-  transition: all 0.4s ease;
-}
-.butao:hover {
-  background: #8844ee;
-}
-
 /* Login */
 .sect_final {
   margin-top: 60px;
@@ -673,21 +659,6 @@ fieldset.grupo .campo {
   display: inline-block;
   margin-right: 1em;
 }
-.botao {
-  border: 3px solid;
-  color: #8844ee;
-  padding: 10px 30px;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.1em;
-}
-
-.botao:hover {
-  background: #0c0c0c;
-  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
-  text-shadow: none;
-}
 
 .itens {
   margin-top: 140px;
@@ -705,7 +676,6 @@ fieldset.grupo .campo {
   min-width: 250px;
   max-width: 310px;
 }
-
 
 /* meus produtos */
 .selecao {
@@ -814,7 +784,6 @@ fieldset.grupo .campo {
 .final_email {
   margin-bottom: 40px;
 }
-
 
 /* Redes sociais */
 
