@@ -119,8 +119,9 @@
       }
       .left-set img {
         position: relative;
+        width: 100%;
         top: 40px;
-        left: -10px;
+        left: -20px;
         box-sizing: border-box;
       }
       .right-set {
