@@ -107,19 +107,22 @@
       .single-item {
         margin: 0 auto;
         height: 350px;
-        width: 100%;
+        width: 50%;
         box-sizing: border-box;
       }
 
       .left-set {
         float: left;
         overflow: hidden;
+        box-sizing: border-box;
+
       }
       .left-set img {
         position: relative;
         width: 70%;
         top: 40px;
         left: 50px;
+        box-sizing: border-box;
       }
       .right-set {
         float: left;
@@ -127,6 +130,7 @@
         box-sizing: border-box;
       }
       .butao {
+          width: 70%;
           margin-top: 2px;
       }
       .name {
