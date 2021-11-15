@@ -80,9 +80,10 @@
     margin-bottom: -138px;
   }
   .produtos_icone {
+    margin: 0 auto;
     padding: 30px;
     bottom: 70px;
-    margin-bottom: 60px;
+    
   }
   .produtos_icone img {
     height: 20.5rem;
