@@ -48,16 +48,6 @@
     display: none;
   }
   /*sobre*/
-  .introducao_interna {
-    width: 100%;
-    margin-top: 0px;
-    background-size: cover;
-  }
-  .introducao_interna h1 {
-    padding-top: 0;
-    line-height: 50px;
-    font-size: 36px;
-  }
   .sobre_valores h3 {
     margin-left: -20px;
   }
@@ -65,16 +55,6 @@
     margin-left: 0px;
   }
   /*produtos*/
-  .produtos_interno {
-    width: 100%;
-    margin-top: 0px;
-    background-size: cover;
-  }
-  .produtos_interno h1 {
-    padding-top: 0;
-    line-height: 50px;
-    font-size: 36px;
-  }
   .item_produto h2 {
     top: -100px;
     margin-bottom: -138px;
@@ -83,26 +63,26 @@
     margin: 0 auto;
     padding: 30px;
     bottom: 70px;
-    
   }
   .produtos_icone img {
     height: 22.5rem;
-    width: 17.813rem;
+    width: 19.813rem;
   }
   .produtos_icone .bottao {
     position: relative;
     margin: 0 auto;
+    text-align: center;
     top: 130px;
     padding: 0.8em 1.2em;
     opacity: 0.7;
-}
-.produtos_icone .bottao2 {
-  position: relative;
-  margin: 0 auto;
-  top: 140px;
-  padding: 0.8em 1.8em;
-  opacity: 0.7;
-}
+  }
+  .produtos_icone .bottao2 {
+    position: relative;
+    margin: 0 auto;
+    top: 140px;
+    padding: 0.8em 1.8em;
+    opacity: 0.7;
+  }
   .btn-new {
     padding: 5px 30px;
   }
